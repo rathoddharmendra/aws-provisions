@@ -4,3 +4,4 @@
 **.tfstate*
 .prettierrc
 .DS_Store
+*.local.hcl
