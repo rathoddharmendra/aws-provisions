@@ -1,2 +1,6 @@
 .env
 .bin/
+.terraform/
+**.tfstate*
+.prettierrc
+.DS_Store
