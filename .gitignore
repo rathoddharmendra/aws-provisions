@@ -5,3 +5,4 @@
 .prettierrc
 .DS_Store
 *.lock.hcl
+*.notes

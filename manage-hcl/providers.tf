@@ -18,7 +18,7 @@ terraform {
     key    = "state.tfstate"
     region = "eu-central-1"
     use_lockfile = true
-    # dynamodb_table = "tf-stateful-dynamo_db"
+    # dynamodb_table = "tf-stateful-dynamo_db" --deprecated
   }
 
 
