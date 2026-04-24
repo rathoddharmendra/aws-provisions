@@ -13,13 +13,13 @@ terraform {
     }
   }
 
-  backend "s3" {
-    bucket = "tf-stateful-bucket"
-    key    = "state.tfstate"
-    region = "eu-central-1"
-    use_lockfile = true
-    # dynamodb_table = "tf-stateful-dynamo_db" --deprecated
-  }
+  # backend "s3" {
+  #   bucket = "tf-stateful-bucket"
+  #   key    = "state.tfstate"
+  #   region = "eu-central-1"
+  #   use_lockfile = true
+  #   # dynamodb_table = "tf-stateful-dynamo_db" --deprecated
+  # }
 
 
 }

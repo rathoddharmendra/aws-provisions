@@ -1,3 +1,0 @@
-bucket = "tf-stateful-bucket"
-key    = "prod/state.tfstate"
-region = "eu-central-1"
